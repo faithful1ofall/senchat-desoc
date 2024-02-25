@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Begin"
+      label: "Learn more"
     }
   ],
   image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeibvho6mxjoitfxlbnecyq5e57mui4gkureflpsvw2zltnwxjtw27q/senchatlogo.png`,
