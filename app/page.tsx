@@ -4,7 +4,9 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Learn more"
+      action: 'link',
+      label: "Learn more",
+      target: 'https://senchatdapp.vercel.app',
     }
   ],
   image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeigoomwtaqaul2ebswxtg7nfh6jxqkcvczyn3pmieeuidhlpufimke`,
