@@ -4,16 +4,10 @@ import type { Metadata } from 'next';
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: "Begin",
-    //  target: 'https://www.google.com'
-    },
-    {
- //     action: 'link',
-      label: "Begin",
- //     target: 'https://www.google.com'
-    },
+      label: "Learn more"
+    }
   ],
-  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeibvho6mxjoitfxlbnecyq5e57mui4gkureflpsvw2zltnwxjtw27q/senchatlogo.png`,
+  image: `${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/bafybeigoomwtaqaul2ebswxtg7nfh6jxqkcvczyn3pmieeuidhlpufimke`,
   post_url: `${process.env.NEXT_PUBLIC_BASE_URL}/api/frame?id=1`,
 });
 
